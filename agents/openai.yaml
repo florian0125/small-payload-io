@@ -1,0 +1,4 @@
+interface:
+  display_name: "大文件分块与请求瘦身"
+  short_description: "本地压缩图片、拆分文本与批量结果，控制累计返回量并保存续读进度"
+  default_prompt: "使用 $small-payload-io 处理这些文件，先在本地压缩或拆分，再按预算读取并保存进度。"
